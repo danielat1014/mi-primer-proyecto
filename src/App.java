@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class App {
 
@@ -199,7 +198,7 @@ public class App {
         }
         */
         
-        public static void main(String[] args) {
+        /*public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
 
             System.out.print("¿De que numero quieres la tabla?: ");
@@ -211,6 +210,51 @@ public class App {
             }
 
             sc.close();
+        }*/
+
+        /*public static void main(String[] args) {
+            
+        Punto p1 = new Punto();
+
+        System.out.println(p1.getX());
+        System.out.println(p1.getY());
+        System.out.println(p1.modulo());
+
+
+        p1.setX(2);
+        p1.setY(3);
+
+        System.out.println(p1.getX());
+        System.out.println(p1.getY());
+        System.out.println(p1.modulo());
+
+        Punto p2 = new Punto(2,3);
+
+        System.out.println(p2.getX());
+        System.out.println(p2.getY());
+        System.out.println(p2.modulo());*
+
+
+
+        }*/
+
+        public static void main(String[] args) {
+
+        Punto p1 = new Punto(2,3);
+
+        System.out.println(p1.getX());
+        System.out.println(p1.getY());
+
+        Punto p2 = new Punto(8);
+
+        System.out.println(p2.getX());
+        System.out.println(p2.getY());
+
+        Punto p3 = new Punto();
+
+        System.out.println(p3.getX());
+        System.out.println(p3.getY());
+
         }
 
     }
